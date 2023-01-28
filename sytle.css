@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+body {
+  background: #101820ff;
+}
+.king-container {
+  width: 300px;
+  margin: 200px auto;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  display: block;
+  text-align: center;
+  font-family: "Source Code Pro";
+  font-size: 1.6rem;
+  color: #f2aa4cff;
+  margin-bottom: 2rem;
+}
+.players,
+.scores {
+  font-family: "Source Code Pro";
+  font-size: 1.3rem;
+  color: #f2aa4cff;
+  display: flex;
+}
+.me,
+.AI,
+.my-score,
+.ai-score {
+  width: 50%;
+  display: block;
+  text-align: center;
+}
+.rps {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.move-buttons {
+  width: 4rem;
+  height: 4rem;
+  background: #3c1053ff;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+
+.result {
+  margin-top: 2rem;
+  font-family: "Source Code Pro";
+  font-size: 1.3rem;
+  color: #f2aa4cff;
+  display: block;
+  text-align: center;
+}
+
+#reset-button {
+  font-family: "Source Code Pro";
+  font-size: 1.3rem;
+  background: #e94b3cff;
+  color: #101820ff;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.reset {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.comparison {
+  font-family: "Source Code Pro";
+  font-size: 1.3rem;
+  color: #e94b3cff;
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+}

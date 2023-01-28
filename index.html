@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logo.jpg" />
+    <title>RPS</title>
+    <link rel="stylesheet" href="sytle.css" />
+  </head>
+  <body>
+    <div class="king-container">
+      <div class="title">Rock Paper Scissors</div>
+      <div class="players">
+        <div class="me">Me</div>
+        <div class="AI">AI</div>
+      </div>
+      <div class="scores">
+        <div class="my-score" id="player-score">0</div>
+        <div class="ai-score" id="machine-score">0</div>
+      </div>
+      <div class="rps">
+        <div class="rock">
+          <button class="move-buttons" id="rock" onclick="rock()">
+            &#128074;
+          </button>
+        </div>
+        <div class="paper">
+          <button class="move-buttons" id="paper" onclick="paper()">
+            &#9995;
+          </button>
+        </div>
+        <div class="scissors">
+          <button class="move-buttons" id="scissors" onclick="scissor()">
+            &#9996;
+          </button>
+        </div>
+      </div>
+      <div class="comparison" id="comp"></div>
+      <div class="result" id="display"></div>
+      <div class="reset">
+        <button
+          id="reset-button"
+          onclick="reset()
+        "
+        >
+          Reset
+        </button>
+      </div>
+    </div>
+    <script src="functions.js"></script>
+  </body>
+</html>
