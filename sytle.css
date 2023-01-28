@@ -5,7 +5,7 @@ body {
 .king-container {
   width: 300px;
   margin: 200px auto;
-  height: 500px;
+  height: 400px;
   display: flex;
   flex-direction: column;
 }
@@ -74,4 +74,8 @@ body {
   display: block;
   text-align: center;
   margin-top: 1rem;
+}
+
+@media (min-width: 720px) {
+  height: ;
 }
