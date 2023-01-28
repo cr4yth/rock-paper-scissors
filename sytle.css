@@ -81,4 +81,7 @@ body {
     height: 400px;
     margin-top: 150px;
   }
+  body {
+    height: 650px;
+  }
 }
